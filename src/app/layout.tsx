@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
-import { Playfair_Display } from "@next/font/google";
+import { Playfair_Display } from "next/font/google";
 
 const playfairDisplay = Playfair_Display({
   subsets: ["latin"],

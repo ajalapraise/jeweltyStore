@@ -1,6 +1,6 @@
 import React from "react";
 import ArrorRight from "../Icons/ArrorRight";
-import { Plus_Jakarta_Sans } from "@next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
 
 export const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
