@@ -39,7 +39,7 @@ const Story = () => {
           </div>{" "}
         </div>
         <div className="bg-black w-full  flex flex-col justify-between pb-5 md:flex-row-reverse">
-          <div className=" w-full md:w-1/2 flex flex-col justify-start p-4 md:p-20 items-start gap-[45px]  text-white ">
+          <div className="w-full md:w-1/2 flex flex-col justify-start p-4 md:p-20 items-start gap-[45px]  text-white ">
             <h1 className="font-medium text-2xl md:text-4xl ">Our Vision</h1>
             <p
               className={`${plusJakartaSans.className} text-[18px] md:text-[32px]`}
