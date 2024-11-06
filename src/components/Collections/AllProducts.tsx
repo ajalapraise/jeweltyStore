@@ -51,7 +51,7 @@ const AllProducts = () => {
   useEffect(() => {
     if (scrollRef.current) {
       const scrollOffset = currentIndex * 202;
-      //@ts-expect-error
+      //@ts-expect-error: scrollTo not recognized on ref type
       scrollRef.current.scrollTo({ left: scrollOffset, behavior: "smooth" });
     }
   }, [currentIndex]);
