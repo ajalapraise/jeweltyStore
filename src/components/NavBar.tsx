@@ -28,7 +28,7 @@ const NavBar = () => {
             About Us
           </Link>
           <Link
-            href="/collections"
+            href="/all-collections"
             className="border-r-[1.5px] border-[#D5C0C5] py-[10px] px-3 flex justify-center items-center text-xl w-[145px]"
           >
             Collections
