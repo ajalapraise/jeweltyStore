@@ -17,25 +17,25 @@ const NavBar = () => {
         <div className="hidden md:flex w-[437px] h-[52px] justify-between items-center">
           <Link
             href="/"
-            className="border-r-[1.5px] border-[#D5C0C5] py-[10px] px-3 text-xl w-[89px]"
+            className="border-r-[1.5px] border-[#D5C0C5] py-[10px] px-3 flex justify-center items-center text-xl w-[89px]"
           >
             Home
           </Link>
           <Link
             href="/about-us"
-            className="border-r-[1.5px] border-[#D5C0C5] py-[10px] px-3 text-xl w-[121px]"
+            className="border-r-[1.5px] border-[#D5C0C5] py-[10px] px-3 flex justify-center items-center text-xl w-[121px]"
           >
             About Us
           </Link>
           <Link
             href="/collections"
-            className="border-r-[1.5px] border-[#D5C0C5] py-[10px] px-3 text-xl w-[145px]"
+            className="border-r-[1.5px] border-[#D5C0C5] py-[10px] px-3 flex justify-center items-center text-xl w-[145px]"
           >
             Collections
           </Link>
           <Link
             href="#"
-            className="border-r-[1.5px] border-[#D5C0C5] py-[10px] px-3 text-xl w-[82px]"
+            className="border-r-[1.5px] border-[#D5C0C5] py-[10px] px-3 flex justify-center items-center text-xl w-[82px]"
           >
             Blogs
           </Link>
