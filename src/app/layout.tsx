@@ -24,6 +24,31 @@ const playfairDisplay = Playfair_Display({
 export const metadata: Metadata = {
   title: "Verosa Jewelry Store",
   description: "A jewelry Store",
+
+  metadataBase: new URL("https://www.verosajewelrystore.com"),
+  themeColor: "#ffffff",
+  viewport: "width=device-width, initial-scale=1",
+  robots: "index, follow",
+  keywords: "jewelry, diamonds, Verosa, rings, necklaces, bracelets, earrings",
+  // authors: "Verosa Jewelry Store",
+
+  openGraph: {
+    type: "website",
+    url: "",
+    title: "Verosa Jewelry Store",
+    description:
+      "Experience the excellence of Verosa's craftsmanship and high-quality jewelry collections.",
+    siteName: "Verosa Jewelry Store",
+    images: [
+      {
+        url: "",
+        width: 1200,
+        height: 630,
+        alt: "Verosa Jewelry Store - Exquisite Jewelry",
+      },
+    ],
+    locale: "en_US",
+  },
 };
 
 export default function RootLayout({

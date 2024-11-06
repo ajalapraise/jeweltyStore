@@ -16,13 +16,13 @@ const NavBar = () => {
         </div>
         <div className="hidden md:flex max-w-[30.35%] h-[52px] justify-between items-center">
           <Link
-            href="#"
+            href="/"
             className="border-r-[1.5px] border-[#D5C0C5] py-[10px] px-3 text-2xl"
           >
             Home
           </Link>
           <Link
-            href="#"
+            href="/AboutUs"
             className="border-r-[1.5px] border-[#D5C0C5] py-[10px] px-3 text-2xl"
           >
             About Us
