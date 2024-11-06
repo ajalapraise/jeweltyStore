@@ -9,7 +9,7 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="  m-0 w-full md:px-8 overflow-hidden gap-6 flex flex-col pt-10 md:bg-[url('../assets/Home-bg.png')] h-full  bg-repeat">
+    <div className=" min-w-[390px] max-w-[1440px] mx-auto w-full  overflow-hidden gap-6 flex flex-col pt-10 md:bg-[url('../assets/Home-bg.png')] h-full  bg-repeat">
       <Herosection />
       <WhyChooseUs />
       <Gallery />

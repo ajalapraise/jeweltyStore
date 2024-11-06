@@ -59,7 +59,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${playfairDisplay.className} antialiased overflow-x-hidden w-screen h-full p-0 m-0`}
+        className={`${playfairDisplay.className} antialiased overflow-x-hidden  w-screen h-full p-0 m-0`}
       >
         <NavBar />
         {children}

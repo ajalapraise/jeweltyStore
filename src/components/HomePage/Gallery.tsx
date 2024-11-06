@@ -9,7 +9,7 @@ import { plusJakartaSans } from "./WhyChooseUs";
 
 const Gallery = () => {
   return (
-    <div className="flex flex-col md:flex-col gap-[39px] border-0 md:border-t items-center  border-[#D5C0C5] justify-center md:py-8 px-3 mx-auto md:mx-0 md:px-8">
+    <div className="flex flex-col md:flex-col gap-[39px] border-0 md:border-t items-center  border-[#D5C0C5] justify-center md:py-8 px-3 mx-auto w-full md:px-16">
       <div className="flex justify-between items-center w-full">
         <h1 className="font-medium text-2xl md:text-5xl">
           Our collection gallery

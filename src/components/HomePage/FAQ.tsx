@@ -82,7 +82,7 @@ const FAQ: React.FC<FAQProps> = ({ question, answer, id }) => {
 
 const FAQList = () => {
   return (
-    <div className="flex flex-col md:flex-col gap-[39px]  items-center  justify-center md:py-8 px-3 mx-auto md:mx-0 md:px-8">
+    <div className="flex flex-col md:flex-col gap-[39px]  items-center  justify-center md:py-8 px-3 mx-auto md:mx-0 md:px-16">
       {" "}
       <h1 className="text-2xl md:text-4xl text-center font-medium">
         Frequently Asked Questions

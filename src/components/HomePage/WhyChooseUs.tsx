@@ -10,7 +10,7 @@ export const plusJakartaSans = Plus_Jakarta_Sans({
 
 const WhyChooseUs = () => {
   return (
-    <div className="flex flex-col md:flex-row  border-t  border-[#D5C0C5] justify-center md:py-8 px-3 md:px-8">
+    <div className="flex flex-col md:flex-row w-full  border-t  border-[#D5C0C5] justify-center md:py-8 px-3 md:px-16">
       <div className="flex md:w-[424px] justify-center items-center flex-col h-[198px] py-8 md:py-[34px] md:px-[36px] px-4 gap-4  border-t md:border-r md:border-black md:border-t-0 md:border-b-0 border-b border-[#D5C0C5]">
         <h1 className={`font-semibold ${plusJakartaSans.className}`}>
           Why choose Us?

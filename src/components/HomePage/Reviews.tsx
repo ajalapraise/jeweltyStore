@@ -9,7 +9,7 @@ import ArrorRight from "../Icons/ArrorRight";
 
 const Reviews = () => {
   return (
-    <div className="flex flex-col gap-6 md:gap-[72px] border-t border-b items-center  border-[#D5C0C5] justify-center py-4 md:py-8   md:mx-0 md:px-8">
+    <div className="flex flex-col gap-6 md:gap-[72px] border-t border-b items-center  border-[#D5C0C5] justify-center py-4 md:py-8   md:mx-0 md:px-16">
       <div className="flex w-full flex-col md:flow-row justify-start items-start px-4 gap-10">
         <div className="flex justify-center w-full md:justify-between md:items-center flex-col md:flex-row">
           <h1 className="md:texx-2xl">Customer Reviews</h1>

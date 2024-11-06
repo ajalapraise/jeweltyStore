@@ -8,7 +8,7 @@ import img5 from "@/assets/promise-5.jpeg";
 
 const Promises = () => {
   return (
-    <div className="flex flex-col gap-6 md:gap-[72px] border-t border-b items-center  border-[#D5C0C5] justify-center py-4 md:py-8 px-3 mx-auto md:mx-0 md:px-8">
+    <div className="flex flex-col gap-6 md:gap-[72px] border-t border-b items-center  border-[#D5C0C5] justify-center py-4 md:py-8 px-3 mx-auto md:mx-0 md:px-16">
       <h1 className="font-medium text-2xl md:text-5xl">Our Promises</h1>{" "}
       <div className="flex justify-between items-center gap-[10.17px] md:gap-[74px]">
         <div className="w-[60.67px] md:w-[200px] flex  border-[0.85px] border-[#D5C0C58A] rounded-full ">

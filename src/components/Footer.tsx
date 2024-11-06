@@ -9,7 +9,7 @@ import ArrorRight from "./Icons/ArrorRight";
 
 const Footer = () => {
   return (
-    <div className="min-w-[390px] bg-black gap-10  flex flex-col justify-between items-center  text-white overflow-hidden  px-4 md:px-10 py-10 md:py-[30px]">
+    <div className="min-w-[390px] max-w-[1440px] mx-auto  bg-black gap-10  flex flex-col justify-between items-center  text-white overflow-hidden  px-4 md:px-10 py-10 md:py-[30px]">
       <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-0 w-full">
         <div className="md:w-[337px] flex flex-col justify-between gap-[22px]">
           <h1 className="text-2xl md:text-[32px]">Contact</h1>
@@ -89,7 +89,7 @@ const Footer = () => {
           <h1>Terms of service</h1>
         </div>
       </div>
-      <h1 className="flex justify-center items-center font-semibold text-[94.96px] md:text-[429.03px]">
+      <h1 className="flex justify-center items-center font-semibold text-[94.96px] md:text-[350px]">
         Verosa
       </h1>
     </div>

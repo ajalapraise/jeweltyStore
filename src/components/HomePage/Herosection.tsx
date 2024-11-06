@@ -6,9 +6,9 @@ import ArrorRight from "../Icons/ArrorRight";
 
 const Herosection = () => {
   return (
-    <div className="py-1 px-3 md:px-8 flex justify-center items-center flex-col gap-6">
+    <div className="py-1 px-3 md:px-16 min-w-[390px] max-w-[1440px] mx-auto flex justify-center items-center flex-col gap-6">
       <div className="flex justify-between md:items-center md:gap-[19px] w-full">
-        <div className="w-[44.6%] md:w-[37.15%] flex flex-col gap-6  ">
+        <div className="w-[174px] md:w-[535px] flex flex-col gap-6  ">
           <Image
             src={hero1}
             alt={""}
@@ -29,7 +29,7 @@ const Herosection = () => {
             <ArrorRight />
           </button>
         </div>
-        <div className="w-[171px] md:w-[29.44%] flex flex-col gap-6 ">
+        <div className="w-[171px] md:w-[424px] flex flex-col gap-6 ">
           <Image
             src={hero2}
             alt={""}

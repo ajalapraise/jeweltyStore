@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 import img1 from "@/assets/quality.jpeg";
 import ArrorRight from "../Icons/ArrorRight";
-
 import { plusJakartaSans } from "./WhyChooseUs";
+
 const Quality = () => {
   return (
-    <div className="flex flex-col gap-6 md:gap-[72px]  items-center  border-[#D5C0C5] justify-center py-4 md:py-8   md:mx-0 md:px-8">
+    <div className="flex flex-col gap-6 md:gap-[72px]  items-center  border-[#D5C0C5] justify-center py-4 md:py-8   md:mx-0 md:px-16">
       <div className="bg-black w-full  flex flex-col px-8 pb-5 md:flex-row">
         <div className=" w-full md:w-1/2 ">
           <Image
