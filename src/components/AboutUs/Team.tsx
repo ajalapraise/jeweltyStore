@@ -38,7 +38,7 @@ const Team = () => {
   useEffect(() => {
     if (scrollRef.current) {
       const scrollOffset = currentIndex * 202;
-      //@ts-ignore
+      //@ts-expect-error
       scrollRef.current.scrollTo({ left: scrollOffset, behavior: "smooth" });
     }
   }, [currentIndex]);
