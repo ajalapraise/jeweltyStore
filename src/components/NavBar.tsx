@@ -22,13 +22,13 @@ const NavBar = () => {
             Home
           </Link>
           <Link
-            href="/AboutUs"
+            href="/about-us"
             className="border-r-[1.5px] border-[#D5C0C5] py-[10px] px-3 text-xl w-[121px]"
           >
             About Us
           </Link>
           <Link
-            href="/Collections"
+            href="/collections"
             className="border-r-[1.5px] border-[#D5C0C5] py-[10px] px-3 text-xl w-[145px]"
           >
             Collections
