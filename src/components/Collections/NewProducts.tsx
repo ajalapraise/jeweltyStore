@@ -48,11 +48,11 @@ const NewProducts = () => {
               key={collection.id}
               className="flex flex-row flex-wrap items-center justify-center"
             >
-              <div className="w-[170px] md:w-[424px] flex justify-center items-start flex-col gap-[20px]">
+              <div className="w-[170px] md:w-[424px] flex justify-center items-start flex-col gap-[20px]  hover:gap-0 cursor-pointer transition-all ease-in-out duration-500 hover:w-[90%]">
                 <Image
                   src={collection.img}
                   alt={""}
-                  className="h-[150px] md:h-[340px]   "
+                  className="h-[150px] md:h-[340px] hover:h-[300px] hover:object-center transition-all ease-in-out duration-50  "
                 />
                 <h1
                   className={`${plusJakartaSans.className} text-lg font-medum`}
@@ -64,11 +64,11 @@ const NewProducts = () => {
           ))}
         </div>{" "}
         <div className="hidden md:flex w-[424px]">
-          <div className=" w-[424px] flex justify-center items-start flex-col gap-[17px]">
+          <div className=" w-[424px] flex justify-center items-start flex-col gap-[17px] hover:gap-0 cursor-pointer transition-all ease-in-out duration-500 hover:w-[90%]">
             <Image
               src={img5}
               alt={""}
-              className="h-[753px] object-contain   "
+              className="h-[753px] object-contain  hover:h-[720px] hover:object-center transition-all ease-in-out duration-50 "
             />
             <h1 className={`${plusJakartaSans.className} text-lg font-medum`}>
               {" "}

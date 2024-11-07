@@ -65,7 +65,7 @@ const FAQ: React.FC<FAQProps> = ({ question, answer, id }) => {
       >
         <div className="flex gap-6 w-[85%]">
           <h1 className="text-2xl md:text-[32px] font-medium">0{id}</h1>
-          <h3 className="  text-2xl  md:text-[32px] font-medium">{question}</h3>
+          <h3 className="text-2xl md:text-[32px] font-medium">{question}</h3>
         </div>
         <div
           className={`w-12 h-12 flex justify-center items-center ${
@@ -75,7 +75,13 @@ const FAQ: React.FC<FAQProps> = ({ question, answer, id }) => {
           {isOpen ? <Minus /> : <Plus />}
         </div>
       </div>
-      {isOpen && <p className={` text-[18px] md:text-2xl`}>{answer}</p>}
+      <div
+        className={`overflow-hidden transition-all duration-500 ease-in-out ${
+          isOpen ? "max-h-[200px] opacity-100" : "max-h-0 opacity-0"
+        }`}
+      >
+        <p className="text-[18px] md:text-2xl">{answer}</p>
+      </div>
     </div>
   );
 };

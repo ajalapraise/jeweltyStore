@@ -65,7 +65,7 @@ const Team = () => {
           className="flex gap-[20px] overflow-x-scroll w-full  snap-x scroll-smooth"
         >
           {team.map((team) => (
-            <div key={team.id} className="snap-center w-[261px] flex-shrink-0">
+            <div key={team.id} className="snap-center w-[261px] flex-shrink-0 ">
               <Image
                 src={team.img}
                 alt={team.name}
@@ -95,14 +95,14 @@ const Team = () => {
         </div>
       </div>
 
-      <div className="hidden md:flex flex-wrap gap-[13px] justify-start w-[1294px]">
+      <div className="hidden md:flex flex-wrap gap-[13px] justify-start min-w-[1294px]">
         {team.map((member) => (
           <div key={member.id} className="flex  items-start justify-start">
-            <div className=" w-[313px] flex justify-center items-start flex-col gap-4">
+            <div className=" w-[313px] flex justify-center items-start flex-col gap-4 hover:gap-0 cursor-pointer transition-all ease-in-out duration-500 hover:w-[103%]">
               <Image
                 src={member.img}
                 alt={""}
-                className="h-[240px] object-center "
+                className="h-[240px] object-center hover:h-[270px] hover:object-center transition-all ease-in-out duration-500 "
               />
               <h1 className=" text-2xl">{member.name}</h1>
             </div>{" "}

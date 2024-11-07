@@ -11,7 +11,7 @@ const Herosection = () => {
         <div className="w-[174px] md:w-[535px] flex flex-col gap-6  ">
           <Image
             src={hero1}
-            alt={""}
+            alt={""}  
             className=" w-full h-[172px] md:h-[720px] object-cover "
           />
           <h1 className="font-semibold text-2xl xl:hidden">

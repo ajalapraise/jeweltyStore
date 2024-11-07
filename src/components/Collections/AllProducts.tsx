@@ -60,7 +60,6 @@ const AllProducts = () => {
 
   return (
     <div className="flex flex-col mt-[20px] md:mt-[100px] w-full items-center md:gap-[56px] justify-center py-4 md:py-2">
-      {/* Desktop filter bar */}
       <div className="md:border-b border-[#D5C0C5] w-full md:pb-10">
         <div className="w-full px-8 hidden md:flex">
           <ul className="flex justify-start items-center gap-8 md:w-[866px] px-8 w-full h-10">
@@ -151,18 +150,17 @@ const AllProducts = () => {
         </div>
       </div>
 
-      {/* Grid display for desktop */}
-      <div className="hidden md:flex flex-wrap gap-[20px] justify-start md:w-[1312px] pt-[20px]">
+      <div className="hidden md:flex  flex-wrap md:flex-nowrap md:gap-[20px] justify-start md:w-[1312px] pt-[20px] overflow-hidden">
         {filteredCollections.map((collection) => (
           <div
             key={collection.id}
             className="flex flex-col md:flex-row items-center justify-center"
           >
-            <div className="w-[202px] flex justify-center items-start flex-col gap-[17px]">
+            <div className="w-[202px] flex justify-center items-start flex-col gap-[17px] hover:gap-0 cursor-pointer transition-all ease-in-out duration-500 hover:w-[101%]">
               <Image
                 src={collection.img}
                 alt={collection.name}
-                className="h-[359px] object-contain"
+                className="h-[359px] object-contain hover:h-[300px] hover:object-center transition-all ease-in-out duration-500"
               />
               <h1
                 className={`${plusJakartaSans.className} text-lg font-medium`}
